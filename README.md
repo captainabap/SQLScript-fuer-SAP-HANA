@@ -10,11 +10,13 @@ Hinter den folgenden Links stecken die SQL Skripte, die das Datenmodell anlegen 
 * [Datenbanktabellen füllen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_03_Fill_with_Data.sql)
 * [Installation überprüfen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_04_Check_Install_Result.sql)
 
-Nach jedem Skript bitte in der Konsolenausgabe prüfen, ob alles ohne Fehler durchgelaufen ist. Bei der Verwendung der WebIDE habe ich schon beobchtet, dass die Datenmenge im 3. Schritt zu groß ist. Dann können Sie das Skript auch halbieren. 
+Nach jedem Skript bitte in der Konsolenausgabe prüfen, ob alles ohne Fehler durchgelaufen ist. 
+
+Sie können die Daten auch lokal speichern und nach belieben anpassen. Wenn Ihnen beispielsweise die Testdaten zu viele sind, können Sie das entsprechende Skript einfach anpassen. Um die angelegten Datenbankobjekte wieder zu Löschen, gibt es auch ein passendes Skript:
+
+[Datenbanktabellen, Prozeduren und Funktionen löschen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/uninstall.sql)
+
+
 ## Übersicht über das Datenmodell
 
 ![Übersicht](https://github.com/captainabap/Einstieg-in-SQLScript/blob/master/A02_Demo_Datenmodell.png)
-
-## Uninstall
-
-[Datenbanktabellen, Prozeduren und Funktionen löschen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/uninstall.sql)
