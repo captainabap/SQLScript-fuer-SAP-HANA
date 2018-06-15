@@ -40,3 +40,7 @@ DROP FUNCTION udf_tage;
 DROP PROCEDURE write_error_log;
 
 DROP PROCEDURE show_error_log;
+
+DROP PROCEDURE projektaufgaben_schliessen;
+
+DROP TYPE ID_TEXT;
