@@ -32,7 +32,8 @@ CREATE COLUMN TABLE projekte (
    projektleiter INT,
    aufwandsschaetzung INT,
    anfangsdatum DATE,
-   STATUS INT
+   STATUS INT,
+   mitarbeiter INT ARRAY
    );
 
 CREATE COLUMN TABLE aufgaben (
