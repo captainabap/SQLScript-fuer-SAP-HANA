@@ -1,6 +1,6 @@
-# Einstieg-in-SQLScript
+# SQLScript für SAP HANA
 
-Hier finden Sie das Demo-Datenmodell für mein Buch Einstieg in SQLScript. 
+Hier finden Sie das Demo-Datenmodell für mein Buch SQLScript für SAP HANA. 
 
 ## Installation
 Hinter den folgenden Links stecken die SQL Skripte, die das Datenmodell anlegen und mit Daten füllen. Bitte kopieren Sie den Inhalt der einzelnen Skripte in die Zwischenablage und öffnen dann eine SQL-Konsole für das Datenbankschema Ihrer Wahl, zum Beispiel das persönliche Schema Ihres Datenbanknutzers. Dort fügen Sie das Skript ein und führen es aus. 
