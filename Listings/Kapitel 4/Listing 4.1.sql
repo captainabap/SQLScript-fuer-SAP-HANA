@@ -1,5 +1,5 @@
 -- Listing 4.1.sql
--- Beispiel für das Verhalten des Datentyps VARCHAR
+-- Beispiel fÃ¼r das Verhalten des Datentyps VARCHAR
 
 CREATE TABLE tab1  (
      row_nr INT,
@@ -8,11 +8,11 @@ CREATE TABLE tab1  (
      col_nvarchar NVARCHAR(4)
   );
 
-INSERT INTO tab1 VALUES ( 1,'?'   , '?'  , '?'   );
-INSERT INTO tab1 VALUES ( 2,'??' , '??', '??' );
+INSERT INTO tab1 VALUES ( 1,'ç¢¼'   , 'ç¢¼'  , 'ç¢¼'   );
+INSERT INTO tab1 VALUES ( 2,'ç¢¼ç¢¼' , 'ç¢¼ç¢¼', 'ç¢¼ç¢¼' );
 INSERT INTO tab1 VALUES ( 3,'abcd' , 'abcd', 'abcd' );
-INSERT INTO tab1 VALUES ( 4,'Jörg' , 'Jörg', 'Jörg' );
-INSERT INTO tab1 VALUES ( 5,'öö'   , 'öö'  , 'öö'   );
+INSERT INTO tab1 VALUES ( 4,'JÃ¶rg' , 'JÃ¶rg', 'JÃ¶rg' );
+INSERT INTO tab1 VALUES ( 5,'Ã¶Ã¶'   , 'Ã¶Ã¶'  , 'Ã¶Ã¶'   );
 
 SELECT row_nr,
        col_alphanum,
