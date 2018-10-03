@@ -1,6 +1,3 @@
---Definition einer Prozedur mit Standardwerten für die Parameter
-
-DEFAULT
 --Definition einer Prozedur mit Standardwerten
 CREATE PROCEDURE standardwerte (
    IN iv_max_id INT DEFAULT 10,
