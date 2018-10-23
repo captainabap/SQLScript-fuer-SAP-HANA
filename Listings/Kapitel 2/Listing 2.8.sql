@@ -12,6 +12,6 @@ DO BEGIN
    lt_tab2 = SELECT id, titel as text FROM :lt_tab1;
    lt_tab3 = SELECT id, titel as col1 FROM :lt_tab1;
    SELECT * FROM :lt_tab1;
-   SELECT * FROM :lt_tab1;
-   SELECT * FROM :lt_tab1;
+   SELECT * FROM :lt_tab2;
+   SELECT * FROM :lt_tab3;
 END;
