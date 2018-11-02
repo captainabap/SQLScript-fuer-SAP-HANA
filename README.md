@@ -3,7 +3,7 @@ Hier finden Sie die Listings und das Demo-Datenmodell für mein Buch SQLScript f
 ## Korrekturen für mein Buch
 * Seite 71, Listing 2.8: Die drei SELECT-Anweisungen beziehen sich auf die gleiche Tabelle, das ist falsch. Statt dessen soll natürlich LT_TAB1, LT_TAB2 und LT_TAB3 abgefragt werden. [Hier die korrigierte Version](https://github.com/captainabap/SQLScript-fuer-SAP-HANA/blob/master/Listings/Kapitel%202/Listing%202.8.sql)
 * Seite 79, Listing 2.16: Es fehlt ein Leerzeichen nach dem DO. [Hier die korrekte Version](https://github.com/captainabap/SQLScript-fuer-SAP-HANA/blob/master/Listings/Kapitel%202/Listing%202.16.sql)
-* Seite 156, Listing 4.1: Beim Setzen des Buches ist bei der zweiten INSERT-Anweisung das doppelte chinesische Zeichen durch ein einfaches Zeichen ersetzt worden. 
+* Seite 156, Listing 4.1: Beim Setzen des Buches ist bei der zweiten INSERT-Anweisung das doppelte chinesische Zeichen durch ein einfaches Zeichen ersetzt worden. [Hier die korrekte Version](https://github.com/captainabap/SQLScript-fuer-SAP-HANA/blob/master/Listings/Kapitel%204/Listing%204.1.sql)
 * Seite 417: Der Link zu dieser Seite wurde leider beim Setzten umgebrochen, wodurch ein Bindestrich eingefügt wurde. Dieser darf nicht mit eingegeben werden.  Richtig ist dieser Link: https://github.com/captainabap/SQLScript-fuer-SAP-HANA/ , aber das wissen Sie ja offensichtlich bereits. 
 
 
