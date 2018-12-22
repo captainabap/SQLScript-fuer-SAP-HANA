@@ -9,7 +9,7 @@ Hier finden Sie die Listings und das Demo-Datenmodell für mein Buch SQLScript f
 * Seite 374: Die Aussage im grauen Kasten "Missverständliche Option" gilt nicht mehr für aktuelle Systemstände. Dort funktioniert das Debuggen auch mit der Option "Seriell im Dialogprozess (für Debugging)". 
 
 
-## Installation
+## Installation des Demo-Datenmodells
 Hinter den folgenden Links stecken die SQL Skripte, die das Datenmodell anlegen und mit Daten füllen. Bitte kopieren Sie den Inhalt der einzelnen Skripte in die Zwischenablage und öffnen dann eine SQL-Konsole für das Datenbankschema Ihrer Wahl, zum Beispiel das persönliche Schema Ihres Datenbanknutzers. Dort fügen Sie das Skript ein und führen es aus. 
 
 * [Datenbanktabellen anlegen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_01_Create_Tables.sql)
