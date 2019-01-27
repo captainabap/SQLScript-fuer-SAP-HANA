@@ -10,7 +10,7 @@ Hier finden Sie die Listings und das Demo-Datenmodell für mein Buch SQLScript f
 * Seite 222, Listing 6.4: Die Zeile "DECLARE EXIT HANDLER" muss gelöscht werden, sonst funktioniert das Beispiel nicht. 
 * Seite 396, Listing 11.7: Die Tabellenvariable OT_OBJECTS ist in diesem Listing überflüssig. Das Beispiel läuft aber trotzdem.
 * Seite 136, Listing 3.35: IS vergessen im IS NULL. 
-
+* Seite 29: SAPUI5 und OpenUI5 sind natürlich ein JavaScript Framework und kein SQLScript Framework.
 
 ## Installation des Demo-Datenmodells
 Hinter den folgenden Links stecken die SQL Skripte, die das Datenmodell anlegen und mit Daten füllen. Bitte kopieren Sie den Inhalt der einzelnen Skripte in die Zwischenablage und öffnen dann eine SQL-Konsole für das Datenbankschema Ihrer Wahl, zum Beispiel das persönliche Schema Ihres Datenbanknutzers. Dort fügen Sie das Skript ein und führen es aus. 
