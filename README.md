@@ -9,6 +9,7 @@ Hier finden Sie die Listings und das Demo-Datenmodell für mein Buch SQLScript f
 * Seite 374: Die Aussage im grauen Kasten "Missverständliche Option" gilt nicht mehr für aktuelle Systemstände. Dort funktioniert das Debuggen auch mit der Option "Seriell im Dialogprozess (für Debugging)". 
 * Seite 222, Listing 6.4: Die Zeile "DECLARE EXIT HANDLER" muss gelöscht werden, sonst funktioniert das Beispiel nicht. 
 * Seite 396, Listing 11.7: Die Tabellenvariable OT_OBJECTS ist in diesem Listing überflüssig. Das Beispiel läuft aber trotzdem.
+* Seite 136, Listing 3.35: IS vergessen im IS NULL. 
 
 
 ## Installation des Demo-Datenmodells
