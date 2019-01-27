@@ -20,7 +20,7 @@ BEGIN
             THEN '%'
          ELSE :iv_fiscper3
          END
-      AND fiscper3 NOT NULL;
+      AND fiscper3 IS NOT NULL;
 END;
 
 CALL where_clause('');
