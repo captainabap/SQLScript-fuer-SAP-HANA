@@ -1,5 +1,5 @@
 -- Listing 8.1.sql
--- Beispiel für eine einfache AMDP-Methode
+-- Beispiel fÃ¼r eine einfache AMDP-Methode
 CLASS zcl_amdp_demo DEFINITION
   PUBLIC
   CREATE PUBLIC .
@@ -10,9 +10,8 @@ CLASS zcl_amdp_demo DEFINITION
     METHODS get_countries
       IMPORTING
         VALUE(iv_langu)   TYPE  langu
-      EXPORTING
-        VALUE(et_country) TYPE  gty_tt_countries
-      CHANGING
+      CHANGING      
+        VALUE(ct_country) TYPE  gty_tt_countries
         VALUE(cv_subrc)   TYPE sy-subrc.
 ENDCLASS.
 
@@ -21,7 +20,7 @@ CLASS zcl_amdp_demo IMPLEMENTATION.
      BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT
      USING t005t.
 
-    et_country = select * 
+    ct_country = select * 
                  from t005t
                  where spras = :iv_langu;
                  
@@ -31,6 +30,6 @@ CLASS zcl_amdp_demo IMPLEMENTATION.
               ELSE 4 
               END AS subrc
           INTO cv_subrc
-          FROM :et_country;
+          FROM :ct_country;
   ENDMETHOD.
 ENDCLASS.
