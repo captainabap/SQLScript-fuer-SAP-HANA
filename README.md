@@ -18,7 +18,8 @@ Hinter den folgenden Links stecken die SQL Skripte, die das Datenmodell anlegen 
 
 * [Datenbanktabellen anlegen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_01_Create_Tables.sql)
 * [Prozeduren und Funktionen anlegen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_02_Create_Procedures_and_Functions.sql)
-* [Datenbanktabellen füllen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_03_Fill_with_Data.sql)
+* [Datenbanktabellen füllen (1/2) ](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_03_Fill_with_Data.sql)
+* [Datenbanktabellen füllen (2/2) ](https://raw.githubusercontent.com/captainabap/SQLScript-fuer-SAP-HANA/master/Install/Install_03a_Fill_with_data_2.sql)
 * [Installation überprüfen](https://raw.githubusercontent.com/captainabap/Einstieg-in-SQLScript/master/Install/Install_04_Check_Install_Result.sql)
 
 Nach jedem Skript bitte in der Konsolenausgabe prüfen, ob alles ohne Fehler durchgelaufen ist. Das letzte Skript fragt die Anzahl der Zeilen in den jeweiligen Tabellen ab. Damit können Sie prüfen, ob die Daten korrekt geladen wurden. 
