@@ -580,4 +580,4 @@ insert into benutzer (id, vorname, nachname, email, geschlecht, team) values (29
 insert into benutzer (id, vorname, nachname, email, geschlecht, team) values (30, 'Ozzy', 'Meyer', 'orickellt@sina.com.cn','M', 4);
 end;
 
-UPDATE tasks SET create_date = add_days( current_date,  uminus(round( rand() * 4,  0 )));
+UPDATE aufgaben SET anlagedatum = add_days( current_date,  uminus(round( rand() * 4,  0 )));
