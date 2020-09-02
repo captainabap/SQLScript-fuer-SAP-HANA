@@ -580,31 +580,4 @@ insert into benutzer (id, vorname, nachname, email, geschlecht, team) values (29
 insert into benutzer (id, vorname, nachname, email, geschlecht, team) values (30, 'Ozzy', 'Meyer', 'orickellt@sina.com.cn','M', 4);
 end;
 
-
-DO BEGIN
-	DECLARE i INT;
-	DECLARE lines INT;
-	DECLARE la_dates DATE ARRAY;
-	DECLARE lv_date DATE := current_date;
-	DECLARE counter INT;
-
-	SELECT count(*)
-		INTO lines
-		FROM aufgaben;
-	counter = :lines;
-	lines = lines;
-	FOR i IN 1..:lines DO
-		lv_date = add_days(
-				:lv_date, 
-				uminus(round( rand() * 4,  0 ))
-			);
-		la_dates[:counter] = :lv_date;
-		counter = :counter - 1;
-	END FOR;
-	lt_dates = unnest(:la_dates) WITH ORDINALITY AS (DATUM, id);
-	UPDATE aufgaben
-SET anlagedatum = datum
-FROM :lt_dates AS dates,
-		aufgaben
-WHERE aufgaben.id = dates.id;
-END;
+UPDATE tasks SET create_date = add_days( current_date,  uminus(round( rand() * 4,  0 )));
